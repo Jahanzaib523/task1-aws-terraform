@@ -1,2 +1,5 @@
-# task1-aws-terraform
-The task has been assigned by Karolis as part of internship at "ItechArt-group" as a intern DevOps developer. The task is based on terraform &amp; its configuration with the AWS instances (EC2). Moreover, I will be installing the nginx files using the terraform configuration files.
+
+ #TASK - Create two EC2 in the AWS using Terraform
+ #Install the Nginx on the created EC2 Instances
+ #Replace the default nginx-website with the new-website
+ #Add the Load balancer in front of the created EC2 Instances

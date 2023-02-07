@@ -1,5 +1,11 @@
+1. TASK - EC2 Instance - Install Nginx using terraform userdata file provisioner or local-exec or remote-exec, modify default nginx page to your custom/random page. Nginx web service with your custom page should be accessible via browser. 
 
- #TASK - Create two EC2 in the AWS using Terraform
- #Install the Nginx on the created EC2 Instances
- #Replace the default nginx-website with the new-website
- #Add the Load balancer in front of the created EC2 Instances
+EC2 Instance:  
+instance_type: t2.micro
+ami: latest ubuntu-jammy version
+
+Try creating your terraform code utilizing differing files version.tf, variable.tf, output, main.tf, ami-datasource.tf, securitygroups.tf
+
+*hints
+refer to ami-datasource.tf for pulling latest ubuntu, we used amazon linux image before. Try "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"
+security rules - it will be identical as we used on 3-4 Projects

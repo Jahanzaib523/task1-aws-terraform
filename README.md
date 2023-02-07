@@ -26,8 +26,3 @@ terraform apply
 terraform apply --auto-approve 
 ```
 
-Try creating your terraform code utilizing differing files version.tf, variable.tf, output, main.tf, ami-datasource.tf, securitygroups.tf
-
-*hints
-refer to ami-datasource.tf for pulling latest ubuntu, we used amazon linux image before. Try "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"
-security rules - it will be identical as we used on 3-4 Projects
